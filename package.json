@@ -1,0 +1,16 @@
+{
+  "name": "secret",
+  "version": "1.0.0",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.2.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "pug": "^2.0.3",
+    "sqlite3": "^4.0.6"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  }
+}

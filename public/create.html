@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Создание секрета</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-3">Создание секрета</h1>
+
+        <div id="errors">
+
+        </div>
+
+        <div class="form-group">
+            <label for="secret">Введите информацию</label>
+            <textarea class="form-control" rows="10" id="secret" name="secret"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="password">Введите пароль</label>
+            <input type="password" class="form-control" id="password" name="password">
+        </div>
+        <div class="form-group">
+            <label for="confirmPassword">Подтвердите пароль</label>
+            <input type="password" class="form-control" id="confirmPassword" name="confirmPassword">
+        </div>
+        <button class="btn btn-success" id="createSecret">Создать секрет</button>
+
+        <div id="complete">
+
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="../check_form.js"></script>
+</body>
+</html>
